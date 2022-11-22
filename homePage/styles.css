@@ -1,9 +1,16 @@
-/*CSS Reset*/
+
 
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	e;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mukta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
 };
 
 
@@ -15,6 +22,30 @@ footer{
 	list-style: none;
 }
 
-#why-tribo, #testimonials {
-	background-color: #ECDBBA;
+#links ul li{
+	list-style: none;
+	text-decoration: none;
+}
+
+h3, p {
+	text-align: center;
+}
+
+/*#why-tribo, #about, #testimonials {
+	background-color: #EDE4E0;
+}*/
+
+#landing-page {
+	background-color: #92A9BD;
+	min-height: 50vh;
+}
+
+#links, footer{
+	background-color: #92A9BD;
+}
+
+.floating-parent{
+	position: fixed;
+	bottom: 3%;
+	right: 18px;
 }

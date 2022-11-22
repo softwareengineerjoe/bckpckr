@@ -10,12 +10,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- CSS Link -->
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hammersmith+One&family=Montserrat:wght@300;400&family=Mukta:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
 
-  <body>
-  	<!-- Navbar -->
+  <body class="background">
+  	<!-- Start of Header Section -->
   	<header>
-  		<nav class="navbar navbar-expand-lg navbar-light p-2" style="background-color: #ECDBBA;">
+  		<nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
   		  <div class="container-fluid" id="home">
   		    <a class="navbar-brand" href="#"><img src="../images/triboNoBG.png" alt="Tribo" width="100" height="100"></a>
   		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,223 +27,234 @@
   		    </button>
   		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
   		      <ul class="navbar-nav ms-auto">
+  		      	<li class="nav-item dropdown">
+  		      	  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  		      	    <i class="fa-regular fa-user"></i>
+  		      	  </a>
+  		      	  <ul class="dropdown-menu">
+  		      	              <li><a class="dropdown-item" href="#about">About us</a></li>
+  		      	              <li><a class="dropdown-item" href="#">Terms and Conditions</a></li>
+  		      	              <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+  		      	              <li><a class="dropdown-item" href="#get-in-touch">Get in touch</a></li>
+  		      	              <li><a class="dropdown-item" href="#">Sign up / Log in</a></li>
+
+  		      	  </ul>
+  		      	</li>
   		        <li class="nav-item">
   		          <a class="nav-link" href="#">Sign up</a>
   		        </li>
   		        <li class="nav-item">
   		          <a class="nav-link" href="#">Log in</a>
   		        </li>
-  		        <li class="nav-item dropdown">
-  		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-  		            <i class="fa-regular fa-user"></i>
-  		          </a>
-  		          <ul class="dropdown-menu">
-  		                      <li><a class="dropdown-item" href="#">About us</a></li>
-  		                      <li><a class="dropdown-item" href="#">Terms and Conditions</a></li>
-  		                      <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
-  		                      <li><a class="dropdown-item" href="#">Get in touch</a></li>
-  		                      <li><a class="dropdown-item" href="#">Sign up / Log in</a></li>
-
-  		          </ul>
-  		        </li>
   		      </ul>
   		    </div>
   		  </div>
   		</nav>
   	</header>
-  	<!-- End of Navbar -->
-   <main>
-   <div class="text-center">
-   	
-   		<div>
-   			<!-- Landing Page -->
-   			<div class="container-fluid" id="landing-page">
-   			  <div class="row">
-   			    <div class="col pt-5">
-   			      <h1>Connecting Culture. Connecting People.</h1>
-   			      <h4>Start meeting new people across the world with the help of Tribo! </h4>
-   			      <button type="button" class="btn btn-outline-secondary">Register</button>
-   			      <a class="btn btn-primary" href="#" role="button">Learn more</a>
-   			    </div>
-   			    <div class="col">
-   			      <img src="../images/tribo.gif">
-   			    </div>
-   			  </div>
-   			</div>
-   			<!-- End of Landing Page -->
+  	<!-- End of Header Section -->
 
-   			<!-- Why Tribo -->
-   			<div class="container-fluid" id="why-tribo">
-   				<h3>Why Tribo?</h3>
-   			  <div class="row">
-   			    <div class="col text-justify">
-   			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-   			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-   			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-   			      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-   			      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-   			      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-   			    </div>
-   			    <div class="col text-justify">
-   			      <ul id="list-unstyled">
-   			      	<li>Free</li>
-   			      	<li>User-friendly</li>
-   			      	<li>No discrimination</li>
-   			      </ul>
-   			    </div>
-   			  </div>
-   			</div>
-   			<!-- End of Why Tribo -->
+  	<!-- Start of Main Section -->
+  	<main>
+  		<!-- Start of Landing Page -->
+  		<div class="container-fluid pt-5" id="landing-page">
+  		  <div class="row pt-5 align-items-center">
+  		    <div class="col-lg-6">
+  		      <h1>Connecting Culture. Connecting People.</h1>
+  		      <h4><em>Start meeting new people across the world with the help of Tribo! </em></h4>
+  		      <button type="button" class="btn btn-outline-secondary">Register</button>
+  		      <a class="btn btn-primary" href="#" role="button">Learn more</a>
+  		    </div>
+  		    <div class="col-lg-6 text-center">
+  		      <img src="../images/kamay.gif" width="300" height="300">
+  		    </div>
+  		  </div>
+  		</div>
+  		<!-- End of Landing Page -->
+  	</main>
+  	<!-- End of Main Section -->
 
-   			<!-- About  -->
-   			<div id="about">
-   				<h2></h2>
-   				<div class="row">
-   					<div class="col-8 offset-2 text-justify">
-   						<h3>About Us</h3>
-   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-   						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-   						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-   						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-   						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-   						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-   					</div>
-   				</div>
-   			</div>
-   			<!-- End of About -->
+  	<!-- Why Tribo -->
+  	<div class="container-fluid p-2" id="why-tribo">
+  		<h3>Why Tribo?</h3>
+  	  <div class="row p-3">
+  	    <div class="col text-justify">
+  	      <p>Tribo is dedicated to long term-development. We promise to improve our website, products and services as time goes by. We make sure to listen to our users for potential improvements and upgrades.</p>
+  	    </div>
+  	    <div class="col text-justify">
+  	      <ul id="list-unstyled">
+  	      	<li><i class="fa-solid fa-check"></i>Free</li>
+  	      	<li><i class="fa-solid fa-check"></i>User-friendly</li>
+  	      	<li><i class="fa-solid fa-check"></i>No discrimination</li>
+  	      </ul>
+  	    </div>
+  	  </div>
+  	</div>
+  	<!-- End of Why Tribo -->
 
-   			<!-- Testimonials  -->
-   			<div id="testimonials">
-   				<h2></h2>
-   				<div class="row">
-   					<section>
-   					  <div class="row d-flex justify-content-center">
-   					    <div class="col-md-10 col-xl-8 text-center">
-   					      <h3 class="mb-4">Testimonials</h3>
-   					      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-   					        What people say about us?
-   					      </p>
-   					    </div>
-   					  </div>
 
-   					  <div class="row text-center">
-   					    <div class="col-md-4 mb-5 mb-md-0">
-   					      <div class="d-flex justify-content-center mb-4">
-   					        <img src="../images/pinoy1.jpg"
-   					          class="rounded-circle shadow-1-strong" width="150" height="150" />
-   					      </div>
-   					      <h5 class="mb-3">Pedro Penduko</h5>
-   					      <h6 class="text-primary mb-3">Student</h6>
-   					      <p class="px-xl-3">
-   					        <i class="fas fa-quote-left pe-2"></i>Okay, maganda!
-   					      </p>
-   					      <ul class="list-unstyled d-flex justify-content-center mb-0">
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star-half-alt fa-sm text-warning"></i>
-   					        </li>
-   					      </ul>
-   					    </div>
-   					    <div class="col-md-4 mb-5 mb-md-0">
-   					      <div class="d-flex justify-content-center mb-4">
-   					        <img src="../images/pinoy2.jpg"
-   					          class="rounded-circle shadow-1-strong" width="150" height="150" />
-   					      </div>
-   					      <h5 class="mb-3">Maria Liwayway</h5>
-   					      <h6 class="text-primary mb-3">Self-Employed</h6>
-   					      <p class="px-xl-3">
-   					        <i class="fas fa-quote-left pe-2"></i>Da best tong website na ito!
-   					      </p>
-   					      <ul class="list-unstyled d-flex justify-content-center mb-0">
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					      </ul>
-   					    </div>
-   					    <div class="col-md-4 mb-0">
-   					      <div class="d-flex justify-content-center mb-4">
-   					        <img src="../images/pinoy3.jpg"
-   					          class="rounded-circle shadow-1-strong" width="150" height="150" />
-   					      </div>
-   					      <h5 class="mb-3">Juan Tutri</h5>
-   					      <h6 class="text-primary mb-3">Call Center Agent</h6>
-   					      <p class="px-xl-3">
-   					        <i class="fas fa-quote-left pe-2"></i>Simple madaling gamitin.
-   					      </p>
-   					      <ul class="list-unstyled d-flex justify-content-center mb-0">
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="fas fa-star fa-sm text-warning"></i>
-   					        </li>
-   					        <li>
-   					          <i class="far fa-star fa-sm text-warning"></i>
-   					        </li>
-   					      </ul>
-   					    </div>
-   					  </div>
-   					</section>
-   				</div>
-   			</div>
-   			<!-- End of Testimonials -->
+  	<!-- About  -->
+  	<div class="container-fluid p-2" id="about">
+  		<h3>About Us</h3>
+  		<div class="row p-3">
+  			<div class="col-8 offset-2 text-justify">
+  				<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  			</div>
+  		</div>
+  	</div>
+  	<!-- End of About -->
 
-   			<!-- Contact -->
-   			<h3 class="mt-3 pt-3" id="contact-me">Get in touch</h3>
+  	<!-- Testimonials  -->
+  	<div class="container-fluid p-2" id="testimonials">
+  		<div class="row p-3">
+  			<section>
+  			  <div class="row d-flex justify-content-center">
+  			    <div class="col-md-10 col-xl-8 text-center">
+  			      <h3 class="mb-4">Our Testimonials</h3>
+  			    </div>
+  			  </div>
 
-   			<div class="p-3">
-   			    <div>
-   			        <a href="https:www.facebook.com" target="_blank"><i class="fa-brands fa-2x fa-facebook p-2"></i></a>
-   			        <a href="https:www.twitter.com" target="_blank"><i class="fa-brands fa-2x fa-twitter p-2"></i></a>
-   			        <a href="https:www.instagram.com" target="_blank"><i class="fa-brands fa-2x fa-instagram p-2"></i></a>
-   			    </div>
-   			</div>
-   			<!-- End of Contact -->	
-   			
-   			</div>
-   		</div>
-   		</main>
-   		<hr>
+  			  <div class="row text-center">
+  			    <div class="col-md-4 mb-5 mb-md-0">
+  			      <div class="d-flex justify-content-center mb-4">
+  			        <img src="../images/pinoy1.jpg" alt="pinoy1" 
+  			          class="rounded-circle shadow-1-strong" width="150" height="150" />
+  			      </div>
+  			      <h5 class="mb-3">Pedro Penduko</h5>
+  			      <h6 class="text-primary mb-3">Student</h6>
+  			      <p class="px-xl-3">
+  			        <i class="fas fa-quote-left pe-2"></i>Okay, maganda!
+  			      </p>
+  			      <ul class="list-unstyled d-flex justify-content-center mb-0">
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+  			        </li>
+  			      </ul>
+  			    </div>
+  			    <div class="col-md-4 mb-5 mb-md-0">
+  			      <div class="d-flex justify-content-center mb-4">
+  			        <img src="../images/pinoy2.jpg" alt="pinoy2" 
+  			          class="rounded-circle shadow-1-strong" width="150" height="150" />
+  			      </div>
+  			      <h5 class="mb-3">Maria Liwayway</h5>
+  			      <h6 class="text-primary mb-3">Self-Employed</h6>
+  			      <p class="px-xl-3">
+  			        <i class="fas fa-quote-left pe-2"></i>Da best tong website na ito!
+  			      </p>
+  			      <ul class="list-unstyled d-flex justify-content-center mb-0">
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			      </ul>
+  			    </div>
+  			    <div class="col-md-4 mb-0">
+  			      <div class="d-flex justify-content-center mb-4">
+  			        <img src="../images/pinoy3.jpg" alt="pinoy3" 
+  			          class="rounded-circle shadow-1-strong" width="150" height="150" />
+  			      </div>
+  			      <h5 class="mb-3">Juan Tutri</h5>
+  			      <h6 class="text-primary mb-3">Call Center Agent</h6>
+  			      <p class="px-xl-3">
+  			        <i class="fas fa-quote-left pe-2"></i>Simple madaling gamitin.
+  			      </p>
+  			      <ul class="list-unstyled d-flex justify-content-center mb-0">
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="fas fa-star fa-sm text-warning"></i>
+  			        </li>
+  			        <li>
+  			          <i class="far fa-star fa-sm text-warning"></i>
+  			        </li>
+  			      </ul>
+  			    </div>
+  			  </div>
+  			</section>
+  		</div>
+  	</div>
+  	<!-- End of Testimonials -->
 
-   
-   <!-- Footer -->
-   <footer class="p-1">&copy; 2022 <em>@softwareengineerjoe</em> - All Rights Reserved.</footer>
-   <!-- End of Footer -->
-   <!-- Floating Button -->
-   <div class="floating-parent">
-   	<a href="#home"><i class="fa-solid fa-circle-chevron-up fa-3x"></i></a>
-   </div>
-   <!-- End of Floating Button -->
+  	<!-- Subscribe to our Email -->
+  	<h3>Subscribe to our Newsletter</h3>
+  	<p>Get updated on our new products and services</p>
+  	<div class="input-group mb-3 container">
+  	  <input type="text" class="form-control" placeholder="Enter Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon">
+  	  <button class="btn btn-outline-secondary" type="button" id="button-addon">Subscribe</button>
+  	</div>
+  	<!-- End of Subscribe to our Email -->
 
+  	<!-- Links -->
+  	<div class="" id="links">
+  		<div class="row">
+  	    <div class="col">
+  	        Quick Links:
+  	        <ul>
+  	        	<li><a href="#">Home</a></li>
+  	        	<li><a href="#">Why Tribo?</a></li>
+  	        	<li><a href="#">About</a></li>
+  	        	<li><a href="#">Terms and Conditions</a></li>
+  	        	<li><a href="#">Privacy Policy</a></li>
+  	        </ul>
+  	    </div>
+  	    <div class="col">
+  	    	Social Links:
+  	        <ul>
+  	        	<li><a href="https:www.facebook.com" target="_blank"><i class="fa-brands fa-facebook p-2"></i>Facebook</a></li>
+  	        	<li><a href="https:www.twitter.com" target="_blank"><i class="fa-brands fa-twitter p-2"></i>Twitter</a></li>
+  	        	<li><a href="https:www.instagram.com" target="_blank"><i class="fa-brands fa-instagram p-2"></i>Instagram</a></li>
+  	        </ul>
+  	    </div>
+  	    <div class="col text-center">
+  	        <img src="../images/triboNoBG.png" alt="Tribo" width="200" height="200">
+  	    </div>
+  	    </div>
+  	</div>
+  	<!-- End of Links -->	
+
+  	<!-- Footer -->
+  	<footer class="text-center">&copy; 2022 <em>@softwareengineerjoe</em> - All Rights Reserved.</footer>
+  	<!-- End of Footer -->
+  	<!-- Floating Button -->
+  	<div class="floating-parent">
+  		<a href="#"><i class="fa-solid fa-circle-chevron-up fa-3x"></i></a>
+  	</div>
+  	<!-- End of Floating Button -->
+  	
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <!-- Font Awsome Kit -->
