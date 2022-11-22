@@ -7,15 +7,14 @@
 };
 
 
-.floating-parent {
-	position: fixed;
-	bottom: 8%;
-	right: 18px;
-}
-
-
 footer{
 	text-align: center;
-/*	color: white;*/
-/*	background-color: #7895B2;*/
+}
+
+#list-unstyled{
+	list-style: none;
+}
+
+#why-tribo, #testimonials {
+	background-color: #ECDBBA;
 }

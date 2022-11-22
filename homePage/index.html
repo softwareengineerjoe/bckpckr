@@ -15,9 +15,9 @@
   <body>
   	<!-- Navbar -->
   	<header>
-  		<nav class="navbar navbar-expand-lg bg-light">
+  		<nav class="navbar navbar-expand-lg navbar-light p-2" style="background-color: #ECDBBA;">
   		  <div class="container-fluid" id="home">
-  		    <a class="navbar-brand" href="#"><img src="../images/triboNoBG.png" alt="Tribo" width="130" height="130"></a>
+  		    <a class="navbar-brand" href="#"><img src="../images/triboNoBG.png" alt="Tribo" width="100" height="100"></a>
   		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
   		      <span class="navbar-toggler-icon"></span>
   		    </button>
@@ -48,15 +48,18 @@
   		</nav>
   	</header>
   	<!-- End of Navbar -->
-   
-   <div class="text-center" id="landing-page">
+   <main>
+   <div class="text-center">
    	
-   	<div>
+   		<div>
    			<!-- Landing Page -->
-   			<div class="container">
+   			<div class="container-fluid" id="landing-page">
    			  <div class="row">
-   			    <div class="col">
+   			    <div class="col pt-5">
    			      <h1>Connecting Culture. Connecting People.</h1>
+   			      <h4>Start meeting new people across the world with the help of Tribo! </h4>
+   			      <button type="button" class="btn btn-outline-secondary">Register</button>
+   			      <a class="btn btn-primary" href="#" role="button">Learn more</a>
    			    </div>
    			    <div class="col">
    			      <img src="../images/tribo.gif">
@@ -65,38 +68,150 @@
    			</div>
    			<!-- End of Landing Page -->
 
+   			<!-- Why Tribo -->
+   			<div class="container-fluid" id="why-tribo">
+   				<h3>Why Tribo?</h3>
+   			  <div class="row">
+   			    <div class="col text-justify">
+   			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   			      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   			      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   			      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   			      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   			      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   			    </div>
+   			    <div class="col text-justify">
+   			      <ul id="list-unstyled">
+   			      	<li>Free</li>
+   			      	<li>User-friendly</li>
+   			      	<li>No discrimination</li>
+   			      </ul>
+   			    </div>
+   			  </div>
+   			</div>
+   			<!-- End of Why Tribo -->
+
    			<!-- About  -->
    			<div id="about">
    				<h2></h2>
    				<div class="row">
    					<div class="col-8 offset-2 text-justify">
-   						Content
+   						<h3>About Us</h3>
+   						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
    					</div>
    				</div>
    			</div>
    			<!-- End of About -->
 
-   			<!-- Terms and Conditions  -->
-   			<div id="terms-and-conditions">
+   			<!-- Testimonials  -->
+   			<div id="testimonials">
    				<h2></h2>
    				<div class="row">
-   					<div class="col-8 offset-2 text-justify">
-   						Content
-   					</div>
-   				</div>
-   			</div>
-   			<!-- End of Terms and Conditions -->
+   					<section>
+   					  <div class="row d-flex justify-content-center">
+   					    <div class="col-md-10 col-xl-8 text-center">
+   					      <h3 class="mb-4">Testimonials</h3>
+   					      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+   					        What people say about us?
+   					      </p>
+   					    </div>
+   					  </div>
 
-   			<!-- Privacy Policy  -->
-   			<div id="privacy-policy">
-   				<h2></h2>
-   				<div class="row">
-   					<div class="col-8 offset-2 text-justify">
-   						Content
-   					</div>
+   					  <div class="row text-center">
+   					    <div class="col-md-4 mb-5 mb-md-0">
+   					      <div class="d-flex justify-content-center mb-4">
+   					        <img src="../images/pinoy1.jpg"
+   					          class="rounded-circle shadow-1-strong" width="150" height="150" />
+   					      </div>
+   					      <h5 class="mb-3">Pedro Penduko</h5>
+   					      <h6 class="text-primary mb-3">Student</h6>
+   					      <p class="px-xl-3">
+   					        <i class="fas fa-quote-left pe-2"></i>Okay, maganda!
+   					      </p>
+   					      <ul class="list-unstyled d-flex justify-content-center mb-0">
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+   					        </li>
+   					      </ul>
+   					    </div>
+   					    <div class="col-md-4 mb-5 mb-md-0">
+   					      <div class="d-flex justify-content-center mb-4">
+   					        <img src="../images/pinoy2.jpg"
+   					          class="rounded-circle shadow-1-strong" width="150" height="150" />
+   					      </div>
+   					      <h5 class="mb-3">Maria Liwayway</h5>
+   					      <h6 class="text-primary mb-3">Self-Employed</h6>
+   					      <p class="px-xl-3">
+   					        <i class="fas fa-quote-left pe-2"></i>Da best tong website na ito!
+   					      </p>
+   					      <ul class="list-unstyled d-flex justify-content-center mb-0">
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					      </ul>
+   					    </div>
+   					    <div class="col-md-4 mb-0">
+   					      <div class="d-flex justify-content-center mb-4">
+   					        <img src="../images/pinoy3.jpg"
+   					          class="rounded-circle shadow-1-strong" width="150" height="150" />
+   					      </div>
+   					      <h5 class="mb-3">Juan Tutri</h5>
+   					      <h6 class="text-primary mb-3">Call Center Agent</h6>
+   					      <p class="px-xl-3">
+   					        <i class="fas fa-quote-left pe-2"></i>Simple madaling gamitin.
+   					      </p>
+   					      <ul class="list-unstyled d-flex justify-content-center mb-0">
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="fas fa-star fa-sm text-warning"></i>
+   					        </li>
+   					        <li>
+   					          <i class="far fa-star fa-sm text-warning"></i>
+   					        </li>
+   					      </ul>
+   					    </div>
+   					  </div>
+   					</section>
    				</div>
    			</div>
-   			<!-- End of Privacy Policy -->
+   			<!-- End of Testimonials -->
 
    			<!-- Contact -->
    			<h3 class="mt-3 pt-3" id="contact-me">Get in touch</h3>
@@ -109,25 +224,15 @@
    			    </div>
    			</div>
    			<!-- End of Contact -->	
-
-   			<!-- Quotation -->
-   			<section>
-   				<div class="row">
-   				<blockquote class="col-8 offset-2"></blockquote>
-   				<div></div>
-   			</section>
-   			<!-- End of Quotation -->
-   						</div>
-   					</form>
-   				</div>
+   			
    			</div>
-   			</div>
-
-   </div>
+   		</div>
+   		</main>
+   		<hr>
 
    
    <!-- Footer -->
-   <footer class="fixed-bottom p-1">&copy; 2022 <em>@softwareengineerjoe</em> - All Rights Reserved.</footer>
+   <footer class="p-1">&copy; 2022 <em>@softwareengineerjoe</em> - All Rights Reserved.</footer>
    <!-- End of Footer -->
    <!-- Floating Button -->
    <div class="floating-parent">
