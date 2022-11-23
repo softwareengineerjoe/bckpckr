@@ -39,7 +39,7 @@ navbar {
 }
 
 #landing-page{
-	background-image: url("../images/landingBG.jpg");
+	background-image: url("./images/landingBG.jpg");
 	background-size: cover;
 	height: 95vh;
 	width: 100%;
