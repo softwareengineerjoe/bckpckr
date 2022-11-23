@@ -1,0 +1,145 @@
+/*CSS Reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	e;
+	position: relative;
+};
+
+navbar {
+	background-color: white;
+}
+
+.nav-link {
+	color: black;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav-link:hover{
+	color: white;
+	background-color: black;
+}
+
+.navbar-brand {
+	font-size: 1.25rem;
+	font-weight: 400;
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#landing-page{
+	background-image: url("../images/landingBG.jpg");
+	background-size: cover;
+	height: 95vh;
+	width: 100%;
+}
+
+#landing-page h1{
+	font-size: 4.4rem;
+	font-weight: 700;
+}
+
+#landing-page h6{
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	line-height: 1;
+	border-bottom: 3px solid;
+	border-color: white;
+	width: 40%;
+}
+
+
+h1 {
+	color: white;
+}
+
+h6 {
+	font-weight: 700;
+	color: white;
+}
+
+.landing-content {
+	padding-top: 8rem;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#landing-page > btn1:hover{
+	color: white;
+	background-color: black;
+}
+
+.why-bckpckr{
+	background-color: rgba(232, 245, 232, 0.5);
+}
+
+#why-bckpckr div{
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 3rem;
+}
+
+#why-bckpckr h6{
+	color: black;
+	}
+
+#why-bckpckr-list{
+	list-style: none;
+}
+
+#faqs {
+	background-color: rgba(232, 245, 232, 0.5);
+}
+
+
+#links {
+	background-color: rgba(232, 245, 232, 0.5);
+}
+
+#links ul li{
+	list-style: none;
+}
+
+#links ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#links ul li a:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	border-radius: 6px;
+}
+
+footer {
+	background-color: rgba(232, 245, 232, 0.5);
+}
+
+.floating-parent{
+	position: fixed;
+	bottom: 3%;
+	right: 18px;
+	color: black;
+}
+
+.floating-parent a{
+	text-decoration: none;
+	color: black;
+}
+
+.floating-parent a:hover{
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.75);
+}
