@@ -50,6 +50,13 @@ navbar {
 	color: white;
 }
 
+#join-now:hover{
+	cursor: pointer;
+	color: black;
+	background-color: white;
+}
+
+
 
 #landing-page h1{
 	font-size: 4.4rem;
