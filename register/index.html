@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="softwareengineerjoe">
+    <meta name="description" content="Registration page for bckpckr">
+    <title>Registration Page</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <!-- Google Fonts -->
+    <!-- Icon for the title bar -->
+    <link rel="website icon" type="png" href="../images/bckpckr-removebg.png">
+  </head>
+
+  <body>
+    <main>
+      
+      <div class="register">
+
+        <a href="../home/index.html"><img src="../images/animatedlogo.gif"></a>
+        <h6 class="text-center">Registration Form</h6>
+
+        <form class="needs-validation">
+
+          <div class="form-group was-validated">
+            <span class="form-group-text">First and last name: </span>
+            <input type="text" aria-label="First name" class="form-control" id="first-name" placeholder="First Name" required>
+            <input type="text" aria-label="Last name" class="form-control" id="last-name" placeholder="Last Name" required>
+            <div class="invalid-feedback">Please complete required fields</div>
+          </div>
+
+           <div class="form-group was-validated">
+              <label class="form-label" for="email-address">Email Address: </label>
+              <input class="form-control" type="email" id="email-address" placeholder="Enter your email address" required>
+              <div class="invalid-feedback">Please enter a valid email address</div>
+          </div>
+
+           <div class="form-group was-validated">
+              <label class="form-label" for="username">Username: </label>
+              <input class="form-control" type="username" id="username" placeholder="Enter your username" required>
+              <div class="invalid-feedback">Please enter a valid username</div>
+          </div>
+
+          <div class="form-group was-validated">
+              <label class="form-label" for="password">Password: </label>
+              <input class="form-control" type="password" id="password" placeholder="Enter your password" required>
+              <div class="invalid-feedback">Please enter your password</div>
+          </div>
+
+          <div class="form-group form-check ">
+            <input class="form-check-input" type="checkbox" id="check">
+            <label class="form-check-label check" for="check">I have read and accepted the <a href="#">terms and conditions</a> and <a href="#">privacy policy</a></label>
+          </div>
+
+          <div>
+            <p>Already a member? <a href="../login/index.html">login</a> instead</p>
+          </div>
+
+          <button onclick="registerUser()" class="btn btn-primary w-100" type="button">Register</button>
+
+      </div>
+
+
+    </main>
+    
+    
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Font Awsome Kit -->
+    <script src="https://kit.fontawesome.com/c9242aa743.js" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./script.js"></script>
+  </body>
+</html>

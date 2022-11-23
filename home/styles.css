@@ -8,6 +8,10 @@
 	position: relative;
 };
 
+html {
+  scroll-behavior: smooth;
+}
+
 navbar {
 	background-color: white;
 }
@@ -40,6 +44,12 @@ navbar {
 	height: 95vh;
 	width: 100%;
 }
+
+#join-now{
+	text-decoration: none;
+	color: white;
+}
+
 
 #landing-page h1{
 	font-size: 4.4rem;
