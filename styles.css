@@ -146,12 +146,13 @@ h3 {
 	text-decoration: none;
 	color: black;
 	padding: 0;
-	
+
 }
 
 #links ul li a:hover {
 	cursor: pointer;
 	background-color: black;
+	background-size: 10px;
 	color: white;
 	border-radius: 6px;
 }
