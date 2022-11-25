@@ -12,3 +12,4 @@ function registerUser() {
 		alert("Please complete all the required fields to register")
 	}
 }
+
