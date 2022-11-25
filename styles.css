@@ -47,20 +47,13 @@ navbar {
 
 #join-now{
 	text-decoration: none;
-	color: white;
-}
-
-#join-now:hover{
-	cursor: pointer;
 	color: black;
-	background-color: white;
 }
-
-
 
 #landing-page h1{
 	font-size: 4.4rem;
 	font-weight: 700;
+	margin: 0;
 }
 
 #landing-page h6{
@@ -70,6 +63,7 @@ navbar {
 	border-bottom: 3px solid;
 	border-color: white;
 	width: 40%;
+	margin: 0;
 }
 
 
@@ -107,6 +101,26 @@ h3 {
 	padding-top: 3rem;
 }
 
+#why-bckpckr h3{
+	margin: 0;
+}
+
+#about h3 {
+	margin: 0;
+}
+
+#accordionExample h3 {
+	margin: 0;
+}
+
+#subscription h3, #subscription p, #subscription div {
+	margin: 0;
+}
+
+#subscription p {
+	padding-bottom: 1rem;
+}
+
 #why-bckpckr h6{
 	color: black;
 	}
@@ -131,6 +145,8 @@ h3 {
 #links ul li a {
 	text-decoration: none;
 	color: black;
+	padding: 0;
+	
 }
 
 #links ul li a:hover {

@@ -15,7 +15,7 @@
     <link rel="website icon" type="png" href="./images/bckpckr-removebg.png">
   </head>
 
-  <body class="background">
+  <body class="background container-fluid">
     <!-- Start of Header Section -->
     <header>
       <navbar>
@@ -49,8 +49,8 @@
           <div class="col-lg-6 landing-content">
             <h1>Do you love to travel?</h1>
             <h6>Join us and be one of our backpackers</h6>
-            <button type="button" class="btn btn1 btn-outline-light"><a href="./register/index.html" id="join-now">Join now</a></button>
-            <a class="btn btn-light" href="#why-bckpckr" role="button">Learn more</a>
+            <button type="button" class="btn btn1 btn-outline-light mt-2" id="join-now><a href="./register/index.html">Join now</a></button>
+            <a class="btn btn-light mt-2" href="#why-bckpckr" role="button">Learn more</a>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
     
 
     <!-- Why bckpckr -->
-    <div class="container-fluid pt-3 why-bckpckr" id="why-bckpckr">
+    <div class="container-fluid why-bckpckr" id="why-bckpckr">
       <h3>Why bckpckr?</h3>
       <div class="row p-3">
         <div class="col text-justify">
@@ -77,7 +77,7 @@
     </div>
     <!-- End of Why bckpckr -->
 
-    <!-- Stary of About -->
+    <!-- Start of About -->
 
     <div class="container-fluid p-2" id="about">
       <h3>About Us</h3>
@@ -147,12 +147,12 @@
     <!-- End of FAQs -->
 
     <!-- Subscribe to our Email -->
-    <div class="row container-fluid">
+    <div class="row container-fluid" id="subscription">
     <div class="col d-none d-md-inline-block"></div>	
     <div class="col">
     <h3>Subscribe to our Newsletter</h3>
     <p class="text-center"><strong>Get updated on our new products and services</strong></p>
-    <div class="input-group mb-3 container">
+    <div class="input-group mb-3 container" id="inputEmail">
       <input type="email" class="form-control" placeholder="Enter Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon" id="userInput" required>
       <button onclick="subscribe()" class="btn btn-outline-dark" type="button" id="subscribe">Subscribe</button>
     </div>
@@ -162,12 +162,12 @@
     <!-- End of Subscribe to our Email -->
 
     <!-- Links -->
-    <div class="pt-3 pb-2" id="links">
+    <div class="pt-2 pb-2" id="links">
       <div class="row">
         <div class="col">
-            Quick Links:
             <ul>
-              <li><a href="#">Home</a></li>
+              Quick Links:
+              <li class="pt-2"><a href="#">Home</a></li>
               <li><a href="#why-bckpckr">Why bckpckr?</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#">Terms and Conditions</a></li>
@@ -175,9 +175,10 @@
             </ul>
         </div>
         <div class="col">
-          Social Links:
             <ul>
-              <li><a href="https:www.facebook.com" target="_blank"><i class="fa-brands fa-facebook p-2"></i>Facebook</a></li>
+          Social Links:
+
+              <li class="pt-2"><a href="https:www.facebook.com" target="_blank"><i class="fa-brands fa-facebook p-2"></i>Facebook</a></li>
               <li><a href="https:www.twitter.com" target="_blank"><i class="fa-brands fa-twitter p-2"></i>Twitter</a></li>
               <li><a href="https:www.instagram.com" target="_blank"><i class="fa-brands fa-instagram p-2"></i>Instagram</a></li>
             </ul>
